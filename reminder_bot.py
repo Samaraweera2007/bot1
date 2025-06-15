@@ -10,7 +10,7 @@ import json
 import os
 from telegram.error import TelegramError
 
-
+import os
 TOKEN = os.getenv("7586032938:AAEUn_sCvmw4lXrodnDt8RITjiCFf5XhSiA") # BotFather එකෙන් ගත් token එක මෙතැන දාන්න
 REMINDER_FILE = "reminders.json"
 CHANNEL_FILE = "channels.json"
